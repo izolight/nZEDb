@@ -105,8 +105,8 @@ do
 	echo "--- Create Releases ---"
 	$PHP ${MULTI_PATH}/releases.php					#Creates releases from complete collections one group per thread.
 #
-	echo "--- Decrypt Hashes ---"                                                                                                                          
-	$PHP ${NZEDB_PATH}/decrypt_hashes.php 10240		# 
+	echo "--- Decrypt Hashes ---"
+	$PHP ${NZEDB_PATH}/decrypt_hashes.php 10240
 #	echo "--- PreDB ---"
 #	$PHP ${NZEDB_PATH}/nix/tmux/bin/postprocess_pre.php	# Post-Process PreDBs
 	echo "--- PREs ---"
